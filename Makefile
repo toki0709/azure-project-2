@@ -8,4 +8,4 @@ test:
 lint:
 	pylint --disable=R,C hello.py
 
-all: install, test, lint
+all: install test lint
